@@ -1,6 +1,7 @@
 .header {
   //border: 1px solid red;
   background-color: white;
+  height: 94px;
 } 
 
 .header__list {
@@ -8,6 +9,9 @@
   display: flex;
   //flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 1.7rem;
   }
   
 
@@ -16,9 +20,13 @@
   font-family: 'Berkshire Swash';
 }
 
+.header__item{
+  padding: 1rem;
+}
+
 .header__icon--trophy,
 .header__icon--plus{
-  font-size: 0.7rem;
+  font-size: 1.5rem;
 }
 
 .header__icon--trophy{
