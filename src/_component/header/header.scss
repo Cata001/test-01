@@ -1,7 +1,7 @@
 .header {
   //border: 1px solid red;
   background-color: white;
-  height: 94px;
+  height: #{$header-height};
 } 
 
 .header__list {
