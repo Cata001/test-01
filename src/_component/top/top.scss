@@ -1,0 +1,30 @@
+.top__wrapper {
+  position: relative;
+  height: calc(100vh - #{$header-height});
+  &:after,
+  &:before {
+      content: '';
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+  }
+  &:before {
+      background-size: cover;
+      background-position: center center;
+      background-image: 
+          url(/asset/image/junior-test-top.jpg);
+      filter: grayscale(50);
+      z-index: -2;
+  }
+  &:after {
+      background-image: 
+          linear-gradient(
+              to right, 
+              rgba(26, 44, 84, 0.53),
+              rgba(97, 150, 158, 0.53)
+          );
+      z-index: -1;
+  }
+}
