@@ -24,14 +24,15 @@
     background-image:
     url(/asset/image/junior-test-top.jpg) ;
     position: absolute;
-    bottom:-5rem;
-    right: 0;
+    bottom:-3rem;
+    right: -5rem;
     z-index: -1;
     @extend %white5;
     font-size: 10rem;
     font-family: $nice-font;
     text-transform: capitalize;
-    transform: rotate(-20deg);
+    //transform: rotate(-20deg);
+    transform: rotate3d(0, 1, -1, 30deg);
     background-position: center center;
 
 }
